@@ -4,7 +4,8 @@
 body{
   width:70%;
   margin: auto;
-  border: 1rem white;}
+}
+
 h1{
   font-size: 2rem;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -16,54 +17,77 @@ h1{
   margin: 0;
 }
 header nav{
-background-color:#9966FF;
-padding:1rem;
-margin: 0;
+  
+  float:left;
+  width:100%;
+  border:1px solid violet ;
+  background-color:#9100FF;
+  margin: 0;
+
+}
+header ul{
+  padding: 0;
+  border: 0;
+  margin: 0;
 }
   header li{
   float: left;
   list-style: none;
- /* padding-bottom:0em;*/
-    padding-left: 3rem;
-      border:1 rem solid blue;
   text-align: center;
-    color: white;
-    
-    
- 
+  color: white;
+    padding: 0;
+    margin: 0;
+  /* border-right: 1px solid purple;*/
+  /*padding-bottom:1em;*/
 }
+
 header a{
-padding: 2rem;
-  color:white;
-  border:1px solid black;
+
+  float:left;
+  width:100%;
+  margin:0;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family:  cursive;
+  /*font-weight: lighter;*/
+  text-align: center;
+  border-right: 2px solid purple;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+header nav ul li:first-child a{
+    border-left:none;
+}
+header nav ul li:last-child a {
+    border-right:none;
+  padding-right: 0;
 }
 article {
-
   float: left;
   background-color: #ECECFF;
   text-align: center;
 }
-
-
 figure{
-  margin: 0;
-  padding: 15rem;
+  margin:0;
+  padding: 13rem;
 }
 figcaption{
   text-align: center;
-  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: 1rem;
-  font font-weight: 500;
+  font-family: Georgia, serif;
+  font-size: x-small;
+  padding-left: 5rem;
 }
-
- article img{
-  width: 15rem;
+article img{
+  width: 17rem;
  }
 
 .side{
   clear: both;
   float: left;
-  width: 20%;
+  width: 25%;
   /*border: 1px solid black;*/
   margin: 0;
   background-color: #D0A1FF;
@@ -71,13 +95,20 @@ figcaption{
 
 .side ul{
   padding-bottom:25rem;
-  padding-top: 8rem;
+  padding-top:10rem;
+  padding-right: 3rem;
+  text-align: center;
 }
 .side li{
   list-style: none;
-  padding: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0;
   /*margin-top: 0;*/
   color: white;
+  font-family: "Lucida Sans Unicode", ‘Lucida Grande’, sans-serif;
+  font-weight: 900;
+  font-size: smaller;
+  
   
 }
 footer{
@@ -95,4 +126,4 @@ footer img{
 }
 
 
-l
+
