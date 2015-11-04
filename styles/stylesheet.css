@@ -8,9 +8,9 @@ body{
 
 h1{
   font-size: 2rem;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family:sans-serif;
   text-align: center;
-  color: #9966FF;
+  color: #8D38C9;
   font-size: 3rem;
   background-color: white;
   padding-top: 2rem;
@@ -20,7 +20,7 @@ header nav{
   
   float:left;
   width:100%;
-  border:1px solid violet ;
+  border:1px solid lightblue;
   background-color:#9100FF;
   margin: 0;
 
@@ -42,21 +42,19 @@ header ul{
 }
 
 header a{
-
   float:left;
   width:100%;
   margin:0;
   color: white;
   text-decoration: none;
   text-align: center;
-  font-family:  cursive;
-  /*font-weight: lighter;*/
+  font-family: sans-serif;
   text-align: center;
   border-right: 2px solid purple;
   padding-left: 3rem;
   padding-right: 3rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 header nav ul li:first-child a{
     border-left:none;
@@ -72,13 +70,14 @@ article {
 }
 figure{
   margin:0;
-  padding: 13rem;
+  padding: 10rem;
+  padding-left: 20rem;
 }
 figcaption{
   text-align: center;
   font-family: Georgia, serif;
   font-size: x-small;
-  padding-left: 5rem;
+  padding-left: 0rem;
 }
 article img{
   width: 17rem;
@@ -94,6 +93,7 @@ article img{
 }
 
 .side ul{
+  margin: 0;
   padding-bottom:25rem;
   padding-top:10rem;
   padding-right: 3rem;
@@ -105,7 +105,7 @@ article img{
   padding-bottom: 0;
   /*margin-top: 0;*/
   color: white;
-  font-family: "Lucida Sans Unicode", ‘Lucida Grande’, sans-serif;
+  font-family: sans-serif;
   font-weight: 900;
   font-size: smaller;
   

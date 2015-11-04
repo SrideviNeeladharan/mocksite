@@ -1,0 +1,144 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:auto;
+  width:80%;
+  
+}
+
+header{
+  padding-top: 2rem;
+  text-align: :center;
+  Color: blue;
+  background-color:lightcyan;
+  margin: 0;
+}
+
+h1{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.top {
+  clear: both;
+  float: left;
+  background-color: lightgrey;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.top ul{
+  margin:0;
+  padding: 0;
+}
+
+.top li{
+  float: left;
+  list-style: none;
+ 
+ 
+}
+  .top a{
+  text-decoration: none;
+  font-family: cursive;
+  color:black;
+  border-right:1px solid darkgrey;
+  padding-right:4rem;
+  padding-left:4rem;
+  }
+
+.top ul li:last-child a{
+  border-right: none;
+  padding-right: 0;
+
+}
+
+article{
+  position: relative;
+  width:100%;
+  height: auto;
+  margin:auto;
+  padding:0;
+}
+
+.side{
+  background-color: lightsteelblue;
+  padding-bottom: 11rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  width:20%;
+  min-height: 100%;
+ /* position: absolute;*/
+  float: left;
+  margin:auto;
+}
+
+.side h3{
+  clear: both;
+  float: left;
+  margin:0;
+  padding: 1rem;
+  padding-left: 1rem;
+  font-family: cursive;
+  color:cornflowerblue;
+  text-align: center;
+  }
+
+.side ul{
+  padding-bottom: 4rem;
+  margin: 0;
+  width:100%;
+}
+.side li{
+  clear: both;
+  list-style: none; 
+  padding-top:1rem;
+}
+.side a{
+  text-decoration: none;
+  color:white;
+  
+}
+
+article img{
+  width:12rem;
+  border:1px solid gray;
+} 
+
+section{
+  float:right;
+  width:80%;
+  background-color: lightcyan;
+  padding-left: 10rem;
+  padding-bottom: 2rem;
+ }
+
+table{
+  padding: 1.26rem;
+  border: 1px solid darkgrey;
+  /*padding-right: 1rem;
+  padding-left: 1rem;*/
+}
+
+caption{
+  padding: 1rem;
+  font-family: cursive;
+  color:deeppink;
+}
+
+footer{
+  clear: both;
+  background-color: lightgrey;
+}
+
+p{
+  text-align: center;
+  font-family: fantasy;
+  color:black;
+  padding: 1rem;
+  }
