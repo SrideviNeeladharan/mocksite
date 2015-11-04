@@ -10,27 +10,27 @@ h1{
   font-size: 2rem;
   font-family:sans-serif;
   text-align: center;
-  color: #8D38C9;
+  color: mediumpurple;
   font-size: 3rem;
   background-color: white;
   padding-top: 2rem;
   margin: 0;
 }
-header nav{
+.top{
   
   float:left;
   width:100%;
   border:1px solid lightblue;
-  background-color:#9100FF;
+  background-color:mediumpurple;
   margin: 0;
 
 }
-header ul{
+.top ul{
   padding: 0;
   border: 0;
   margin: 0;
 }
-  header li{
+  .top li{
   float: left;
   list-style: none;
   text-align: center;
@@ -41,7 +41,7 @@ header ul{
   /*padding-bottom:1em;*/
 }
 
-header a{
+.top a{
   float:left;
   width:100%;
   margin:0;
@@ -56,10 +56,10 @@ header a{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
-header nav ul li:first-child a{
+.top  ul li:first-child a{
     border-left:none;
 }
-header nav ul li:last-child a {
+.top  ul li:last-child a {
     border-right:none;
   padding-right: 0;
 }
@@ -68,6 +68,8 @@ article {
   background-color: #ECECFF;
   text-align: center;
 }
+
+
 figure{
   margin:0;
   padding: 10rem;
